@@ -1,8 +1,8 @@
 #**Scheduler 3000**
 
 Используемые фреймворки:
--  :fa-desktop: Bootstrap
-- :fa-flask: Flask
+-  Bootstrap
+-  Flask
 
 Требования: 
 - Python 3.8
