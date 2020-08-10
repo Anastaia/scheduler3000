@@ -1,0 +1,31 @@
+body {
+  background: #a6dcef;
+  color: #333333;
+  /* margin-top: 5rem; */
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #444444;
+}
+
+.site-header .navbar-nav .nav-link {
+  color: #e36387;
+}
+
+
+
+.content-section {
+  background: #ddf3f5;
+  padding: 10px 20px;
+  border: 1px solid #dddddd;
+  border-radius: 25px;
+  margin-bottom: 20px;
+}
+
+.bg {
+  background-color: #f2aaaa;
+}
+
+.embed-responsive {
+  height: 80vh;
+}
