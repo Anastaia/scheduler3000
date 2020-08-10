@@ -18,11 +18,6 @@ def home_page():
     return render_template('home.html')
 
 
-@app.route('/about')
-def about_page():
-    return render_template('about.html')
-
-
 @app.route('/timetable/<group>')
 def timetable_page(group):
     return render_template('timetable.html', title='Расписание', group=group)
