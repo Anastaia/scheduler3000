@@ -1,0 +1,369 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 23.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 945 320" enable-background="new 0 0 945 320" xml:space="preserve">
+<g id="Layer_1">
+	<path fill="none" d="z"/>
+	<rect x="47.098" y="627.618" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="180" height="120"/>
+	<rect x="97.098" y="557.618" pointer-events="all" fill="none" width="100" height="40"/>
+	<path pointer-events="all" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" d="M47.098,627.618v-30h180v30"/>
+	<path pointer-events="none" fill="none" stroke="#000000" stroke-miterlimit="10" d="M47.098,627.618v120h180v-120"/>
+	<path pointer-events="none" fill="none" stroke="#000000" stroke-miterlimit="10" d="M47.098,627.618h180"/>
+	<path pointer-events="none" fill="none" stroke="#000000" stroke-miterlimit="10" d="M87.098,627.618v120"/>
+	<g transform="translate(-0.5 -0.5)">
+		<text transform="matrix(1 0 0 1 111.6018 617.6181)" font-family="'Arial-BoldMT'" font-size="17px">Group</text>
+	</g>
+	<path pointer-events="none" fill="none" stroke="#000000" stroke-miterlimit="10" d="M227.098,657.618h-180"/>
+	<path pointer-events="none" fill="none" stroke="#000000" stroke-miterlimit="10" d="M47.098,657.618"/>
+	<g transform="translate(-0.5 -0.5)">
+		<text transform="matrix(1 0 0 1 63.7607 646.6181)" font-family="'ArialMT'" font-size="12px">1</text>
+	</g>
+	<path pointer-events="none" fill="none" stroke="#000000" stroke-miterlimit="10" d="M87.098,657.618"/>
+	<g transform="translate(-0.5 -0.5)">
+		<text transform="matrix(1 0 0 1 95.0977 646.6181)" font-family="'ArialMT'" font-size="12px">id [PK]</text>
+	</g>
+	<path pointer-events="none" fill="none" stroke="#000000" stroke-miterlimit="10" d="M47.098,687.618"/>
+	<path pointer-events="none" fill="none" stroke="#000000" stroke-miterlimit="10" d="M47.098,687.618"/>
+	<g transform="translate(-0.5 -0.5)">
+		<text transform="matrix(1 0 0 1 63.7607 676.6181)" font-family="'ArialMT'" font-size="12px">2</text>
+	</g>
+	<path pointer-events="none" fill="none" stroke="#000000" stroke-miterlimit="10" d="M87.098,687.618"/>
+	<g transform="translate(-0.5 -0.5)">
+		<text transform="matrix(1 0 0 1 95.0977 676.6181)" font-family="'ArialMT'" font-size="12px">group_number</text>
+	</g>
+	<path pointer-events="none" fill="none" stroke="#000000" stroke-miterlimit="10" d="M47.098,717.618"/>
+	<path pointer-events="none" fill="none" stroke="#000000" stroke-miterlimit="10" d="M47.098,717.618"/>
+	<g transform="translate(-0.5 -0.5)">
+		<text transform="matrix(1 0 0 1 63.7607 706.6181)" font-family="'ArialMT'" font-size="12px">3</text>
+	</g>
+	<path pointer-events="none" fill="none" stroke="#000000" stroke-miterlimit="10" d="M87.098,717.618"/>
+	<g transform="translate(-0.5 -0.5)">
+		<text transform="matrix(1 0 0 1 95.0977 706.6181)" font-family="'ArialMT'" font-size="12px">file_name</text>
+	</g>
+	<path pointer-events="none" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" d="M550.799,547.618h190l10,10v150h-190
+		l-10-10V547.618z"/>
+	<path pointer-events="none" fill-opacity="0.05" d="M550.799,547.618h190l10,10h-190L550.799,547.618z"/>
+	<path pointer-events="none" fill-opacity="0.1" d="M550.799,547.618l10,10v150l-10-10V547.618z"/>
+	<path pointer-events="none" fill="none" stroke="#000000" stroke-miterlimit="10" d="M560.799,707.618v-150l-10-10
+		 M560.799,557.618h190"/>
+	<g transform="translate(-0.5 -0.5)">
+		<text transform="matrix(1 0 0 1 614.8983 582.6181)" font-family="'ArialMT'" font-size="17px">Сlient tier</text>
+	</g>
+	<rect x="580.799" y="607.618" pointer-events="none" fill="#FFFFFF" stroke="#000000" width="150" height="80"/>
+	<g transform="translate(-0.5 -0.5)">
+		<text transform="matrix(1 0 0 1 624.912 632.6181)" font-family="'ArialMT'" font-size="17px">&quot;comp...</text>
+	</g>
+	<g transform="translate(-0.5 -0.5)">
+		<text transform="matrix(1 0 0 1 623.3597 662.6181)" font-family="'ArialMT'" font-size="17px">WebBr...</text>
+	</g>
+	<path pointer-events="none" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" d="M910.799,547.618h190l10,10v150h-190
+		l-10-10V547.618z"/>
+	<path pointer-events="none" fill-opacity="0.05" d="M910.799,547.618h190l10,10h-190L910.799,547.618z"/>
+	<path pointer-events="none" fill-opacity="0.1" d="M910.799,547.618l10,10v150l-10-10V547.618z"/>
+	<path pointer-events="none" fill="none" stroke="#000000" stroke-miterlimit="10" d="M920.799,707.618v-150l-10-10
+		 M920.799,557.618h190"/>
+	<g transform="translate(-0.5 -0.5)">
+		<text transform="matrix(1 0 0 1 979.3062 582.6181)" font-family="'ArialMT'" font-size="17px">Web tier</text>
+	</g>
+	<rect x="940.799" y="607.618" pointer-events="none" fill="#FFFFFF" stroke="#000000" width="150" height="80"/>
+	<g transform="translate(-0.5 -0.5)">
+		<text transform="matrix(1 0 0 1 984.9121 632.6181)" font-family="'ArialMT'" font-size="17px">&quot;comp...</text>
+	</g>
+	<g transform="translate(-0.5 -0.5)">
+		<text transform="matrix(1 0 0 1 990.7642 662.6181)" font-family="'ArialMT'" font-size="17px">Server</text>
+	</g>
+	<path pointer-events="none" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" d="M910.799,787.618h190l10,10v260h-190
+		l-10-10V787.618z"/>
+	<path pointer-events="none" fill-opacity="0.05" d="M910.799,787.618h190l10,10h-190L910.799,787.618z"/>
+	<path pointer-events="none" fill-opacity="0.1" d="M910.799,787.618l10,10v260l-10-10V787.618z"/>
+	<path pointer-events="none" fill="none" stroke="#000000" stroke-miterlimit="10" d="M920.799,1057.618v-260l-10-10
+		 M920.799,797.618h190"/>
+	<g transform="translate(-0.5 -0.5)">
+		<text transform="matrix(1 0 0 1 981.3523 822.6181)" font-family="'ArialMT'" font-size="17px">AppTier</text>
+	</g>
+	<rect x="940.799" y="847.618" pointer-events="none" fill="#FFFFFF" stroke="#000000" width="150" height="80"/>
+	<g transform="translate(-0.5 -0.5)">
+		<text transform="matrix(1 0 0 1 984.9121 872.6181)" font-family="'ArialMT'" font-size="17px">&quot;comp...</text>
+	</g>
+	<g transform="translate(-0.5 -0.5)">
+		<text transform="matrix(1 0 0 1 948.4045 902.6181)" font-family="'ArialMT'" font-size="17px">Business logic la...</text>
+	</g>
+	<rect x="940.799" y="947.618" pointer-events="none" fill="#FFFFFF" stroke="#000000" width="150" height="80"/>
+	<g transform="translate(-0.5 -0.5)">
+		<text transform="matrix(1 0 0 1 984.9121 972.6181)" font-family="'ArialMT'" font-size="17px">&quot;comp...</text>
+	</g>
+	<g transform="translate(-0.5 -0.5)">
+		<text transform="matrix(1 0 0 1 952.6545 1002.6181)" font-family="'ArialMT'" font-size="17px">Data Access La...</text>
+	</g>
+	<path pointer-events="none" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" d="M550.799,887.618h190l10,10v150h-190
+		l-10-10V887.618z"/>
+	<path pointer-events="none" fill-opacity="0.05" d="M550.799,887.618h190l10,10h-190L550.799,887.618z"/>
+	<path pointer-events="none" fill-opacity="0.1" d="M550.799,887.618l10,10v150l-10-10V887.618z"/>
+	<path pointer-events="none" fill="none" stroke="#000000" stroke-miterlimit="10" d="M560.799,1047.618v-150l-10-10
+		 M560.799,897.618h190"/>
+	<g transform="translate(-0.5 -0.5)">
+		<text transform="matrix(1 0 0 1 616.3136 922.6181)" font-family="'ArialMT'" font-size="17px">Data Tier</text>
+	</g>
+	<rect x="580.799" y="947.618" pointer-events="none" fill="#FFFFFF" stroke="#000000" width="150" height="80"/>
+	<g transform="translate(-0.5 -0.5)">
+		<text transform="matrix(1 0 0 1 624.912 972.6181)" font-family="'ArialMT'" font-size="17px">&quot;comp...</text>
+	</g>
+	<g transform="translate(-0.5 -0.5)">
+		<text transform="matrix(1 0 0 1 581.3383 1002.6181)" font-family="'ArialMT'" font-size="17px">SQLight Database</text>
+	</g>
+	<path pointer-events="none" fill="none" stroke="#000000" stroke-miterlimit="10" d="M730.799,667.618h210"/>
+	<path pointer-events="none" fill="none" stroke="#000000" stroke-miterlimit="10" d="M970.799,787.618l-0.15-99.84"/>
+	<path pointer-events="none" fill="none" stroke="#000000" stroke-miterlimit="10" d="M1053.299,947.618v-20"/>
+	<path pointer-events="none" fill="none" stroke="#000000" stroke-miterlimit="10" d="M730.799,1007.618h210"/>
+	<path pointer-events="none" fill="none" stroke="#000000" stroke-linejoin="round" stroke-miterlimit="10" d="M-305-72 M-1375-72
+		 M-1375-68 M-305-68"/>
+	<path pointer-events="none" fill="none" stroke="#000000" stroke-linejoin="round" stroke-miterlimit="10" d="M-315,988 M-1355,988
+		 M-1355,992 M-315,992"/>
+	<path pointer-events="none" fill="none" stroke="#000000" stroke-linejoin="round" stroke-miterlimit="10" d="M-1373,990 M-1373-70
+		 M-1377-70 M-1377,990"/>
+	<path pointer-events="none" fill="none" stroke="#000000" stroke-linejoin="round" stroke-miterlimit="10" d="M-303,990 M-303-70
+		 M-307-70 M-307,990"/>
+</g>
+<g id="Layer_1_copy">
+	<path fill="none" d="z"/>
+	<g>
+		<path pointer-events="all" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" d="M240,0h100l30,30v90H240V0z"/>
+		<path pointer-events="all" fill-opacity="0.05" d="M340,0v30h30L340,0z"/>
+		<path pointer-events="all" fill="none" stroke="#000000" stroke-miterlimit="10" d="M340,0v30h30"/>
+		<path pointer-events="all" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" d="M825,15c0-8.28,26.86-15,60-15
+			c15.91,0,31.17,1.58,42.43,4.39C938.68,7.21,945,11.02,945,15v90c0,8.28-26.86,15-60,15s-60-6.72-60-15V15z"/>
+		<path pointer-events="all" fill="none" stroke="#000000" stroke-miterlimit="10" d="M945,15c0,8.28-26.86,15-60,15s-60-6.72-60-15
+			"/>
+		<path pointer-events="all" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" d="M0,120c0-48,0-72,40-72
+			C13.33,48,13.33,0,40,0s26.67,48,0,48c40,0,40,24,40,72H0z"/>
+		<rect x="285" y="50" pointer-events="all" fill="none" width="40" height="20"/>
+		<g transform="translate(-0.5 -0.5)">
+			<text transform="matrix(1 0 0 1 273.998 64)" font-family="'ArialMT'" font-size="12px">BROWSER</text>
+		</g>
+		<rect x="865" y="50" pointer-events="all" fill="none" width="40" height="20"/>
+		<g transform="translate(-0.5 -0.5)">
+			<text transform="matrix(1 0 0 1 856.8838 64)" font-family="'ArialMT'" font-size="12px">DATABA...</text>
+		</g>
+		<rect x="20" y="80" pointer-events="all" fill="none" width="40" height="20"/>
+		<g transform="translate(-0.5 -0.5)">
+			<text transform="matrix(1 0 0 1 9.4385 97)" font-family="'ArialMT'" font-size="22px" text-decoration=" underline">USER</text>
+		</g>
+		<path pointer-events="stroke" fill="none" stroke="#000000" stroke-miterlimit="10" stroke-dasharray="3,3" d="M40,320V120"/>
+		<path pointer-events="stroke" fill="none" stroke="#000000" stroke-miterlimit="10" stroke-dasharray="3,3" d="M300,320V120"/>
+		<rect x="530" pointer-events="all" fill="#FFFFFF" stroke="#000000" width="120" height="120"/>
+		<rect x="570" y="50" pointer-events="all" fill="none" width="40" height="20"/>
+		<g transform="translate(-0.5 -0.5)">
+			<text transform="matrix(1 0 0 1 577.9941 64)" font-family="'ArialMT'" font-size="12px">APP</text>
+		</g>
+		<path pointer-events="stroke" fill="none" stroke="#000000" stroke-miterlimit="10" stroke-dasharray="3,3" d="M590,320V120"/>
+		<path pointer-events="stroke" fill="none" stroke="#000000" stroke-miterlimit="10" stroke-dasharray="3,3" d="M880,320l-0.5-200"
+			/>
+		<path pointer-events="stroke" fill="none" stroke="#000000" stroke-miterlimit="10" d="M40,160h253.63"/>
+		<path pointer-events="all" stroke="#000000" stroke-miterlimit="10" d="M298.88,160l-7,3.5l1.75-3.5l-1.75-3.5L298.88,160z"/>
+		<rect x="50" y="130" pointer-events="all" fill="none" width="240" height="20"/>
+		<g transform="translate(-0.5 -0.5)">
+			<text transform="matrix(1 0 0 1 61.6997 145)" font-family="'ArialMT'" font-size="17px">Вводит URL с расписанием</text>
+		</g>
+		<path pointer-events="stroke" fill="none" stroke="#000000" stroke-miterlimit="10" d="M300,180h283.63"/>
+		<path pointer-events="all" stroke="#000000" stroke-miterlimit="10" d="M588.88,180l-7,3.5l1.75-3.5l-1.75-3.5L588.88,180z"/>
+		<rect x="360" y="160" pointer-events="all" fill="none" width="180" height="20"/>
+		<g transform="translate(-0.5 -0.5)">
+			<text transform="matrix(1 0 0 1 403.387 175)" font-family="'ArialMT'" font-size="17px">GET запрос</text>
+		</g>
+		<path pointer-events="stroke" fill="none" stroke="#000000" stroke-miterlimit="10" d="M590,200h283.63"/>
+		<path pointer-events="all" stroke="#000000" stroke-miterlimit="10" d="M878.88,200l-7,3.5l1.75-3.5l-1.75-3.5L878.88,200z"/>
+		<rect x="640" y="180" pointer-events="all" fill="none" width="180" height="20"/>
+		<g transform="translate(-0.5 -0.5)">
+			<text transform="matrix(1 0 0 1 681.2578 195)" font-family="'ArialMT'" font-size="17px">Запрос в БД</text>
+		</g>
+		<path pointer-events="stroke" fill="none" stroke="#000000" stroke-miterlimit="10" d="M880,240H596.37"/>
+		<path pointer-events="all" stroke="#000000" stroke-miterlimit="10" d="M591.12,240l7-3.5l-1.75,3.5l1.75,3.5L591.12,240z"/>
+		<rect x="590" y="220" pointer-events="all" fill="none" width="290" height="20"/>
+		<g transform="translate(-0.5 -0.5)">
+			<text transform="matrix(1 0 0 1 609.928 235)" font-family="'ArialMT'" font-size="17px">Ответ с нужным именем файла</text>
+		</g>
+		<path pointer-events="stroke" fill="none" stroke="#000000" stroke-miterlimit="10" d="M590,260H306.37"/>
+		<path pointer-events="all" stroke="#000000" stroke-miterlimit="10" d="M301.12,260l7-3.5l-1.75,3.5l1.75,3.5L301.12,260z"/>
+		<rect x="350" y="230" pointer-events="all" fill="none" width="180" height="20"/>
+		<path pointer-events="all" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" d="M240,0h100l30,30v90H240V0z"/>
+		<path pointer-events="all" fill-opacity="0.05" d="M340,0v30h30L340,0z"/>
+		<path pointer-events="all" fill="none" stroke="#000000" stroke-miterlimit="10" d="M340,0v30h30"/>
+		<path pointer-events="all" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" d="M825,15c0-8.28,26.86-15,60-15
+			c15.91,0,31.17,1.58,42.43,4.39C938.68,7.21,945,11.02,945,15v90c0,8.28-26.86,15-60,15s-60-6.72-60-15V15z"/>
+		<path pointer-events="all" fill="none" stroke="#000000" stroke-miterlimit="10" d="M945,15c0,8.28-26.86,15-60,15s-60-6.72-60-15
+			"/>
+		<path pointer-events="all" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" d="M0,120c0-48,0-72,40-72
+			C13.33,48,13.33,0,40,0s26.67,48,0,48c40,0,40,24,40,72H0z"/>
+		<rect x="285" y="50" pointer-events="all" fill="none" width="40" height="20"/>
+		<g transform="translate(-0.5 -0.5)">
+			<text transform="matrix(1 0 0 1 252.7382 64.8504)" font-family="'ArialMT'" font-size="21px">BROWSER</text>
+		</g>
+		<rect x="865" y="50" pointer-events="all" fill="none" width="40" height="20"/>
+		<g transform="translate(-0.5 -0.5)">
+			<text transform="matrix(1 0 0 1 834.7736 66.5512)" font-family="'ArialMT'" font-size="21px">DATABASE</text>
+		</g>
+		<rect x="20" y="80" pointer-events="all" fill="none" width="40" height="20"/>
+		<g transform="translate(-0.5 -0.5)">
+			<text transform="matrix(1 0 0 1 9.4385 97)" font-family="'ArialMT'" font-size="22px" text-decoration=" underline">USER</text>
+		</g>
+		<path pointer-events="stroke" fill="none" stroke="#000000" stroke-miterlimit="10" stroke-dasharray="3,3" d="M40,320V120"/>
+		<path pointer-events="stroke" fill="none" stroke="#000000" stroke-miterlimit="10" stroke-dasharray="3,3" d="M300,320V120"/>
+		<rect x="530" pointer-events="all" fill="#FFFFFF" stroke="#000000" width="120" height="120"/>
+		<rect x="570" y="50" pointer-events="all" fill="none" width="40" height="20"/>
+		<g transform="translate(-0.5 -0.5)">
+			<text transform="matrix(1 0 0 1 570.3406 62.2992)" font-family="'ArialMT'" font-size="21px">APP</text>
+		</g>
+		<path pointer-events="stroke" fill="none" stroke="#000000" stroke-miterlimit="10" stroke-dasharray="3,3" d="M590,320V120"/>
+		<path pointer-events="stroke" fill="none" stroke="#000000" stroke-miterlimit="10" stroke-dasharray="3,3" d="M880,320l-0.5-200"
+			/>
+		<path pointer-events="stroke" fill="none" stroke="#000000" stroke-miterlimit="10" d="M40,160h253.63"/>
+		<path pointer-events="all" stroke="#000000" stroke-miterlimit="10" d="M298.88,160l-7,3.5l1.75-3.5l-1.75-3.5L298.88,160z"/>
+		<rect x="50" y="130" pointer-events="all" fill="none" width="240" height="20"/>
+		<g transform="translate(-0.5 -0.5)">
+			<text transform="matrix(1 0 0 1 61.6997 145)" font-family="'ArialMT'" font-size="17px">Вводит URL с расписанием</text>
+		</g>
+		<path pointer-events="stroke" fill="none" stroke="#000000" stroke-miterlimit="10" d="M300,180h283.63"/>
+		<path pointer-events="all" stroke="#000000" stroke-miterlimit="10" d="M588.88,180l-7,3.5l1.75-3.5l-1.75-3.5L588.88,180z"/>
+		<rect x="360" y="160" pointer-events="all" fill="none" width="180" height="20"/>
+		<g transform="translate(-0.5 -0.5)">
+			<text transform="matrix(1 0 0 1 403.387 175)" font-family="'ArialMT'" font-size="17px">GET запрос</text>
+		</g>
+		<path pointer-events="stroke" fill="none" stroke="#000000" stroke-miterlimit="10" d="M590,200h283.63"/>
+		<path pointer-events="all" stroke="#000000" stroke-miterlimit="10" d="M878.88,200l-7,3.5l1.75-3.5l-1.75-3.5L878.88,200z"/>
+		<rect x="640" y="180" pointer-events="all" fill="none" width="180" height="20"/>
+		<g transform="translate(-0.5 -0.5)">
+			<text transform="matrix(1 0 0 1 681.2578 195)" font-family="'ArialMT'" font-size="17px">Запрос в БД</text>
+		</g>
+		<path pointer-events="stroke" fill="none" stroke="#000000" stroke-miterlimit="10" d="M880,240H596.37"/>
+		<path pointer-events="all" stroke="#000000" stroke-miterlimit="10" d="M591.12,240l7-3.5l-1.75,3.5l1.75,3.5L591.12,240z"/>
+		<rect x="590" y="220" pointer-events="all" fill="none" width="290" height="20"/>
+		<g transform="translate(-0.5 -0.5)">
+			<text transform="matrix(1 0 0 1 609.928 235)" font-family="'ArialMT'" font-size="17px">Ответ с нужным именем файла</text>
+		</g>
+		<path pointer-events="stroke" fill="none" stroke="#000000" stroke-miterlimit="10" d="M590,260H306.37"/>
+		<path pointer-events="all" stroke="#000000" stroke-miterlimit="10" d="M301.12,260l7-3.5l-1.75,3.5l1.75,3.5L301.12,260z"/>
+		<rect x="350" y="230" pointer-events="all" fill="none" width="180" height="20"/>
+		<g transform="translate(-0.5 -0.5)">
+			<text transform="matrix(1 0 0 1 305.4705 251.8031)" font-family="'ArialMT'" font-size="17px">Рисует страницу с нужным файлом</text>
+		</g>
+	</g>
+	<rect x="97.098" y="557.618" pointer-events="all" fill="none" width="100" height="40"/>
+	<path pointer-events="all" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" d="M47.098,627.618v-30h180v30"/>
+	<path pointer-events="none" fill="none" stroke="#000000" stroke-miterlimit="10" d="M47.098,627.618v120h180v-120"/>
+	<path pointer-events="none" fill="none" stroke="#000000" stroke-miterlimit="10" d="M47.098,627.618h180"/>
+	<path pointer-events="none" fill="none" stroke="#000000" stroke-miterlimit="10" d="M87.098,627.618v120"/>
+	<g transform="translate(-0.5 -0.5)">
+		<text transform="matrix(1 0 0 1 111.6018 617.6181)" font-family="'Arial-BoldMT'" font-size="17px">Group</text>
+	</g>
+	<path pointer-events="none" fill="none" stroke="#000000" stroke-miterlimit="10" d="M227.098,657.618h-180"/>
+	<path pointer-events="none" fill="none" stroke="#000000" stroke-miterlimit="10" d="M47.098,657.618"/>
+	<g transform="translate(-0.5 -0.5)">
+		<text transform="matrix(1 0 0 1 63.7607 646.6181)" font-family="'ArialMT'" font-size="12px">1</text>
+	</g>
+	<path pointer-events="none" fill="none" stroke="#000000" stroke-miterlimit="10" d="M87.098,657.618"/>
+	<g transform="translate(-0.5 -0.5)">
+		<text transform="matrix(1 0 0 1 95.0977 646.6181)" font-family="'ArialMT'" font-size="12px">id [PK]</text>
+	</g>
+	<path pointer-events="none" fill="none" stroke="#000000" stroke-miterlimit="10" d="M47.098,687.618"/>
+	<path pointer-events="none" fill="none" stroke="#000000" stroke-miterlimit="10" d="M47.098,687.618"/>
+	<g transform="translate(-0.5 -0.5)">
+		<text transform="matrix(1 0 0 1 63.7607 676.6181)" font-family="'ArialMT'" font-size="12px">2</text>
+	</g>
+	<path pointer-events="none" fill="none" stroke="#000000" stroke-miterlimit="10" d="M87.098,687.618"/>
+	<g transform="translate(-0.5 -0.5)">
+		<text transform="matrix(1 0 0 1 95.0977 676.6181)" font-family="'ArialMT'" font-size="12px">group_number</text>
+	</g>
+	<path pointer-events="none" fill="none" stroke="#000000" stroke-miterlimit="10" d="M47.098,717.618"/>
+	<path pointer-events="none" fill="none" stroke="#000000" stroke-miterlimit="10" d="M47.098,717.618"/>
+	<g transform="translate(-0.5 -0.5)">
+		<text transform="matrix(1 0 0 1 63.7607 706.6181)" font-family="'ArialMT'" font-size="12px">3</text>
+	</g>
+	<path pointer-events="none" fill="none" stroke="#000000" stroke-miterlimit="10" d="M87.098,717.618"/>
+	<g transform="translate(-0.5 -0.5)">
+		<text transform="matrix(1 0 0 1 95.0977 706.6181)" font-family="'ArialMT'" font-size="12px">file_name</text>
+	</g>
+	<path pointer-events="none" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" d="M550.799,547.618h190l10,10v150h-190
+		l-10-10V547.618z"/>
+	<path pointer-events="none" opacity="0.5" fill-opacity="0.05" d="M550.799,547.618h190l10,10h-190L550.799,547.618z"/>
+	<path pointer-events="none" opacity="0.5" fill-opacity="0.1" d="M550.799,547.618l10,10v150l-10-10V547.618z"/>
+	<path pointer-events="none" fill="none" stroke="#000000" stroke-miterlimit="10" d="M560.799,707.618v-150l-10-10
+		 M560.799,557.618h190"/>
+	<g transform="translate(-0.5 -0.5)">
+		<text transform="matrix(1 0 0 1 614.8983 582.6181)" font-family="'ArialMT'" font-size="17px">Сlient tier</text>
+	</g>
+	<rect x="580.799" y="607.618" pointer-events="none" fill="#FFFFFF" stroke="#000000" width="150" height="80"/>
+	<g transform="translate(-0.5 -0.5)">
+		<text transform="matrix(1 0 0 1 608.0526 665.1693)" font-family="'ArialMT'" font-size="17px">WebBrowser</text>
+	</g>
+	<path pointer-events="none" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" d="M910.799,547.618h190l10,10v150h-190
+		l-10-10V547.618z"/>
+	<path pointer-events="none" opacity="0.5" fill-opacity="0.05" d="M910.799,547.618h190l10,10h-190L910.799,547.618z"/>
+	<path pointer-events="none" opacity="0.5" fill-opacity="0.1" d="M910.799,547.618l10,10v150l-10-10V547.618z"/>
+	<path pointer-events="none" fill="none" stroke="#000000" stroke-miterlimit="10" d="M920.799,707.618v-150l-10-10
+		 M920.799,557.618h190"/>
+	<g transform="translate(-0.5 -0.5)">
+		<text transform="matrix(1 0 0 1 979.3062 582.6181)" font-family="'ArialMT'" font-size="17px">Web tier</text>
+	</g>
+	<rect x="940.799" y="607.618" pointer-events="none" fill="#FFFFFF" stroke="#000000" width="150" height="80"/>
+	<g transform="translate(-0.5 -0.5)">
+		<text transform="matrix(1 0 0 1 990.7642 662.6181)" font-family="'ArialMT'" font-size="17px">Server</text>
+	</g>
+	<path pointer-events="none" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" d="M910.799,787.618h190l10,10v260h-190
+		l-10-10V787.618z"/>
+	<path pointer-events="none" opacity="0.5" fill-opacity="0.05" d="M910.799,787.618h190l10,10h-190L910.799,787.618z"/>
+	<path pointer-events="none" opacity="0.5" fill-opacity="0.1" d="M910.799,787.618l10,10v260l-10-10V787.618z"/>
+	<path pointer-events="none" fill="none" stroke="#000000" stroke-miterlimit="10" d="M920.799,1057.618v-260l-10-10
+		 M920.799,797.618h190"/>
+	<g transform="translate(-0.5 -0.5)">
+		<text transform="matrix(1 0 0 1 981.3523 822.6181)" font-family="'ArialMT'" font-size="17px">AppTier</text>
+	</g>
+	<rect x="940.799" y="847.618" pointer-events="none" fill="#FFFFFF" stroke="#000000" width="150" height="80"/>
+	<g transform="translate(-0.5 -0.5)">
+		<text transform="matrix(1 0 0 1 956.7664 898.1179)" enable-background="new    "><tspan x="0" y="0" font-family="'ArialMT'" font-size="17px">Business Logic </tspan><tspan x="38.271" y="20.4" font-family="'ArialMT'" font-size="17px">Layer</tspan></text>
+	</g>
+	<rect x="940.799" y="947.618" pointer-events="none" fill="#FFFFFF" stroke="#000000" width="150" height="80"/>
+	<g transform="translate(-0.5 -0.5)">
+		<text transform="matrix(1 0 0 1 968.5862 998.366)" enable-background="new    "><tspan x="0" y="0" font-family="'ArialMT'" font-size="17px">Data Access</tspan><tspan x="26.45" y="20.4" font-family="'ArialMT'" font-size="17px">Layer</tspan></text>
+	</g>
+	<path pointer-events="none" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" d="M550.799,887.618h190l10,10v150h-190
+		l-10-10V887.618z"/>
+	<path pointer-events="none" opacity="0.5" fill-opacity="0.05" d="M550.799,887.618h190l10,10h-190L550.799,887.618z"/>
+	<path pointer-events="none" fill-opacity="0.1" d="M550.799,887.618l10,10v150l-10-10V887.618z"/>
+	<path pointer-events="none" opacity="0.5" fill="none" stroke="#000000" stroke-miterlimit="10" d="M560.799,1047.618v-150l-10-10
+		 M560.799,897.618h190"/>
+	<g transform="translate(-0.5 -0.5)">
+		<text transform="matrix(1 0 0 1 616.3136 922.6181)" font-family="'ArialMT'" font-size="17px">Data Tier</text>
+	</g>
+	<rect x="580.799" y="947.618" pointer-events="none" fill="#FFFFFF" stroke="#000000" width="150" height="80"/>
+	<g transform="translate(-0.5 -0.5)">
+		<text transform="matrix(1 0 0 1 606.2034 972.618)" font-family="'ArialMT'" font-size="17px">&quot;component”</text>
+	</g>
+	<g transform="translate(-0.5 -0.5)">
+		<text transform="matrix(1 0 0 1 618.225 998.3661)" enable-background="new    "><tspan x="0" y="0" font-family="'ArialMT'" font-size="17px">SQLight </tspan><tspan x="-3.313" y="20.4" font-family="'ArialMT'" font-size="17px">Database</tspan></text>
+	</g>
+	<path pointer-events="none" fill="none" stroke="#000000" stroke-miterlimit="10" d="M730.799,667.618h210"/>
+	<path pointer-events="none" fill="none" stroke="#000000" stroke-miterlimit="10" d="M970.799,787.618l-0.15-99.84"/>
+	<path pointer-events="none" fill="none" stroke="#000000" stroke-miterlimit="10" d="M1053.299,947.618v-20"/>
+	<path pointer-events="none" fill="none" stroke="#000000" stroke-miterlimit="10" d="M730.799,1007.618h210"/>
+	<path pointer-events="none" fill="none" stroke="#000000" stroke-linejoin="round" stroke-miterlimit="10" d="M-305-72 M-1375-72
+		 M-1375-68 M-305-68"/>
+	<path pointer-events="none" fill="none" stroke="#000000" stroke-linejoin="round" stroke-miterlimit="10" d="M-315,988 M-1355,988
+		 M-1355,992 M-315,992"/>
+	<path pointer-events="none" fill="none" stroke="#000000" stroke-linejoin="round" stroke-miterlimit="10" d="M-1373,990 M-1373-70
+		 M-1377-70 M-1377,990"/>
+	<path pointer-events="none" fill="none" stroke="#000000" stroke-linejoin="round" stroke-miterlimit="10" d="M-303,990 M-303-70
+		 M-307-70 M-307,990"/>
+	<g transform="translate(-0.5 -0.5)">
+		<text transform="matrix(1 0 0 1 606.2032 632.6177)" font-family="'ArialMT'" font-size="17px">&quot;component”</text>
+	</g>
+	<g transform="translate(-0.5 -0.5)">
+		<text transform="matrix(1 0 0 1 965.3987 632.6174)" font-family="'ArialMT'" font-size="17px">&quot;component”</text>
+	</g>
+	<g transform="translate(-0.5 -0.5)">
+		<text transform="matrix(1 0 0 1 965.3984 875.692)" font-family="'ArialMT'" font-size="17px">&quot;component”</text>
+	</g>
+	<g transform="translate(-0.5 -0.5)">
+		<text transform="matrix(1 0 0 1 965.3987 972.618)" font-family="'ArialMT'" font-size="17px">&quot;component”</text>
+	</g>
+</g>
+</svg>

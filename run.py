@@ -9,6 +9,9 @@ app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 db = SQLAlchemy(app)
 
 
+show_diagrams = False
+
+
 # Database Model
 class Group(db.Model):
     id = db.Column(db.Integer, primary_key=True)
@@ -24,11 +27,10 @@ def group_list():
     return {item.group_number: item.file_name for item in Group.query.all()}
 
 
-# Route for home page
 @app.route('/')
 @app.route('/home')
 def home_page():
-    return render_template('home.html')
+    return render_template('home.html', show_diagrams=show_diagrams)
 
 
 @app.route('/timetable/<group>')
