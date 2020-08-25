@@ -1,37 +1,53 @@
 {% extends "layout.html" %}
 
 {% block content %}
-<h1>Расписание учебных групп</h1>
-{% if show_diagrams %}
-  <p> <button onclick="toggle_display()" class="btn btn-light mt-4 mb-4" id="show-diagrams">Скрыть таблицы</button> </p>
 
-  <div class="diagrams">
-    <p class="mt-4"> <h3><strong>Запрос страницы пользователем</strong></h3> <img src="{{ url_for('static', filename='img/diagrams/diagram1.svg') }}" class="img-fluid" alt="Responsive image"> </p>
-    <hr>
-    <p class="mt-4"> <h3><strong>Структура БД</strong></h3> <img src="{{ url_for('static', filename='img/diagrams/diagram2.svg') }}" class="img-fluid" alt="Responsive image"> </p>
-    <hr>
-    <p class="mt-4"> <h3><strong>Диаграмма размещения</strong></h3> <img src="{{ url_for('static', filename='img/diagrams/diagram3.svg') }}" class="img-fluid" alt="Responsive image"> </p>
-  </div>
-  <script type="text/javascript">
-    function toggle_display(){
-      el = document.querySelector('.diagrams');
-      el2 = document.getElementById('show-diagrams')
-      if(el.style.visibility == 'hidden'){
-          el.style.visibility = 'visible'
-      }else{
-         el.style.visibility = 'hidden'
-      }
-      var btn = document.getElementById("show-diagrams");
-      if (btn.value == "Показать таблицы") {
-          btn.value = "Скрыть таблицы";
-          btn.innerHTML = "Скрыть таблицы";
-      }
-      else {
-          btn.value = "Показать таблицы";
-          btn.innerHTML = "Показать таблицы";
-      }
+<div class="content-section form-text">
+  <h2>Расписание учебных групп</h2>
+  <hr>
+  <h3>О приложении</h3>
+  <pre>
+  Приложение для просмотра расписания учебных групп.
+  Есть два типа пользователей:
+  <ul>
+    <li><strong>Куратор</strong> - может добавлять в БД группы и их файлы расписания в формате .pdf</li>
+    <li><strong>Студент</strong> - может выбрать свою группу</li>
+  </ul>
+  Список расписаний доступен всем в правой части страницы
+  </pre>
+</div>
+  {% if show_diagrams %}
+    <p> <button onclick="toggle_display()" class="btn btn-light mt-4 mb-4" id="show-diagrams" >Скрыть таблицы</button> </p>
 
-    }
-  </script>
-{% endif %}
+    <div class="diagrams">
+      <p class="mt-4"> <h3><strong>Запрос страницы пользователем</strong></h3> <img src="{{ url_for('static', filename='img/diagrams/diagram1.svg') }}" class="img-fluid" alt="Responsive image"> </p>
+      <hr>
+      <p class="mt-4"> <h3><strong>Структура БД</strong></h3> <img src="{{ url_for('static', filename='img/diagrams/diagram2.svg') }}" class="img-fluid" alt="Responsive image"> </p>
+      <hr>
+      <p class="mt-4"> <h3><strong>Диаграмма размещения</strong></h3> <img src="{{ url_for('static', filename='img/diagrams/diagram3.svg') }}" class="img-fluid" alt="Responsive image"> </p>
+      <hr>
+      <p class="mt-4"> <h3><strong>Работа пакета Scheduler3K</strong></h3> <img src="{{ url_for('static', filename='img/diagrams/diagram4.svg') }}" class="img-fluid" alt="Responsive image"> </p>
+    </div>
+    <script type="text/javascript">
+      function toggle_display(){
+        el = document.querySelector('.diagrams');
+        el2 = document.getElementById('show-diagrams')
+        if(el.style.visibility == 'hidden'){
+            el.style.visibility = 'visible'
+        }else{
+           el.style.visibility = 'hidden'
+        }
+        var btn = document.getElementById("show-diagrams");
+        if (btn.value == "Показать таблицы") {
+            btn.value = "Скрыть таблицы";
+            btn.innerHTML = "Скрыть таблицы";
+        }
+        else {
+            btn.value = "Показать таблицы";
+            btn.innerHTML = "Показать таблицы";
+        }
+
+      }
+    </script>
+  {% endif %}
 {% endblock content %}

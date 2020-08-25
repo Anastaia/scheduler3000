@@ -4,9 +4,9 @@ from flask_login import login_user, current_user, logout_user, login_required
 from werkzeug.utils import secure_filename
 from Scheduler3K import app, bcrypt, db
 from Scheduler3K.models import User, Group
-from Scheduler3K.forms import RegistrationForm, LoginForm, GroupForm, GroupChangeForm, group_list
+from Scheduler3K.forms import RegistrationForm, LoginForm, GroupForm, GroupChangeForm
 
-show_diagrams = False
+show_diagrams = True
 ALLOWED_EXTENSIONS = set(['pdf'])
 
 
