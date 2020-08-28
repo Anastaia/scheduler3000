@@ -6,7 +6,7 @@ from Scheduler3K import app, bcrypt, db
 from Scheduler3K.models import User, Group
 from Scheduler3K.forms import RegistrationForm, LoginForm, GroupForm
 
-show_diagrams = True
+show_diagrams = False
 ALLOWED_EXTENSIONS = set(['pdf'])
 
 
