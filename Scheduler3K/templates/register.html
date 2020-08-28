@@ -46,11 +46,6 @@
             {{ form.confirm_password(class="form-control form-control-lg") }}
           {% endif %}
         </div>
-        <div class="form-check">
-          {{ form.is_curator(class="form-check-input", id="CuratorCheck", onclick="showGroups()") }}
-          {{ form.is_curator.label(class="form-check-label") }}
-        </div>
-
       </fieldset>
       <div class="form-group">
         {{ form.submit(class="btn btn-outline-info")}}

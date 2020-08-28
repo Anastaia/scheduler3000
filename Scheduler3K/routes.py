@@ -4,7 +4,7 @@ from flask_login import login_user, current_user, logout_user, login_required
 from werkzeug.utils import secure_filename
 from Scheduler3K import app, bcrypt, db
 from Scheduler3K.models import User, Group
-from Scheduler3K.forms import RegistrationForm, LoginForm, GroupForm, GroupChangeForm
+from Scheduler3K.forms import RegistrationForm, LoginForm, GroupForm
 
 show_diagrams = True
 ALLOWED_EXTENSIONS = set(['pdf'])
@@ -12,7 +12,13 @@ ALLOWED_EXTENSIONS = set(['pdf'])
 
 # Creating dict from db data
 def show_groups():
-    return {item.group_number: item.group_number for item in Group.query.all()}
+    groups = [item.group_number for item in Group.query.all()]
+    files = [item.file for item in Group.query.all()]
+    print(groups)
+    print(files)
+    a = {item.group_number: item.file for item in Group.query.all()}
+    print(a)
+    return a
 
 
 def allowed_file(filename):
@@ -38,14 +44,7 @@ def register_page():
     if form.validate_on_submit():
         hashed_password = bcrypt.generate_password_hash(
             form.password.data).decode('utf-8')
-
-        if form.is_curator.data is True:
-            group = 'None'
-            user = User(username=form.username.data,
-                        is_curator=form.is_curator.data, password=hashed_password, group_number=group)
-        else:
-            user = User(username=form.username.data,
-                        is_curator=form.is_curator.data, password=hashed_password)
+        user = User(username=form.username.data, password=hashed_password)
         db.session.add(user)
         db.session.commit()
         flash('Аккаунт создан', 'success')
@@ -56,8 +55,10 @@ def register_page():
 @app.route('/login', methods=['GET', 'POST'])
 def login_page():
     title = 'Вход'
+
     if current_user.is_authenticated:
         return redirect(url_for('home_page'))
+
     form = LoginForm()
     if form.validate_on_submit():
         user = User.query.filter_by(username=form.username.data).first()
@@ -81,7 +82,6 @@ def logout_page():
 def account_page():
     title = 'Аккаунт'
     form = GroupForm()
-    form2 = GroupChangeForm()
     if request.method == 'POST':
         if form.validate_on_submit():
             if form.file_name.data:
@@ -89,30 +89,24 @@ def account_page():
                 if file and allowed_file(file.filename):
                     filename = secure_filename(file.filename)
                     file.save(os.path.join(app.config['UPLOAD_FOLDER'], filename))
-                group = Group(group_number=form.group_number.data)
+                group = Group(group_number=form.group_number.data, file=filename)
                 db.session.add(group)
                 db.session.commit()
                 flash('Группа добавлена', 'success')
                 return redirect(url_for('account_page'))
-
-        if form2.validate_on_submit():
-            print(type(str(form2.group_number.data)))
-            print(type(current_user.group_number))
-            current_user.group_number = str(form2.group_number.data)
-            db.session.commit()
-            flash('Группа обновлена', 'success')
-            return redirect(url_for('account_page'))
     elif request.method == 'GET':
-        return render_template('account.html', title=title, form=form, form2=form2)
-    return render_template('account.html', title=title, form=form, form2=form2)
+        return render_template('account.html', title=title, form=form)
+    return render_template('account.html', title=title, form=form)
 
 
-@app.route('/timetable/<group>')
-def timetable_page(group):
+@app.route('/timetable/<group>?<file>')
+def timetable_page(group, file):
     title = 'Расписание'
-    return render_template('timetable.html', title=title, group=group)
+    return render_template('timetable.html', title=title, file=file, group=group)
 
 
 @app.context_processor
 def context_processor():
-    return dict(group_list=[*show_groups()])
+    groups = {item.group_number: item.file for item in Group.query.all()}
+    return {'group_list': groups}
+    # return dict(group_list=[*show_groups()])

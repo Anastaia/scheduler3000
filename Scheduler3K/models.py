@@ -12,16 +12,15 @@ class User(db.Model, UserMixin):
     id = db.Column(db.Integer, primary_key=True)
     username = db.Column(db.String(20), unique=True, nullable=False)
     password = db.Column(db.String(60), nullable=False)
-    is_curator = db.Column(db.Boolean, default=False, nullable=False)
-    group_number = db.Column(db.String(10), nullable=False, default='None')
 
     def __repr__(self):
-        return f"User('{self.username}', '{self.is_curator}', '{self.group_number}'"
+        return f"User('{self.username}'"
 
 
 class Group(db.Model):
     id = db.Column(db.Integer, primary_key=True)
     group_number = db.Column(db.String(20), unique=True, nullable=False)
+    file = db.Column(db.String(20), unique=True, nullable=False)
 
     def __repr__(self):
-        return self.group_number
+        return f"Group('{self.group_number}'"

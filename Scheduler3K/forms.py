@@ -2,7 +2,6 @@ from flask_wtf import FlaskForm
 from flask_wtf.file import FileField, FileAllowed
 from wtforms import StringField, PasswordField, SubmitField, BooleanField
 from wtforms.validators import DataRequired, Length, EqualTo, ValidationError
-from wtforms.ext.sqlalchemy.fields import QuerySelectField
 from Scheduler3K.models import User, Group
 from Scheduler3K import db
 
@@ -17,7 +16,6 @@ class RegistrationForm(FlaskForm):
     password = PasswordField('Пароль', validators=[DataRequired()])
     confirm_password = PasswordField('Подтверждение пароля', validators=[
                                      DataRequired(), EqualTo('password')])
-    is_curator = BooleanField('Вы сотрудник учебного отдела?')
     submit = SubmitField('Регистрация')
 
     def validate_username(self, username):
@@ -38,10 +36,3 @@ class GroupForm(FlaskForm):
     file_name = FileField('Загрузить расписание',
                           validators=[DataRequired(), FileAllowed(['pdf'])])
     submit = SubmitField('Добавить расписание')
-
-
-class GroupChangeForm(FlaskForm):
-    group_number = QuerySelectField('Номер группы',
-                             validators=[DataRequired()],
-                             query_factory=group_list)
-    submit = SubmitField('Сменить группу')

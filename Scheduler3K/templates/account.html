@@ -7,18 +7,10 @@
     <div class="media-body">
       <h2 class="account-heading">{{ current_user.username}}</h2>
       <p class="text-secondary">
-        {% if current_user.is_curator is sameas true %}
-          Сотрудник учебного отдела
-        {% elif current_user.group_number == 'None' %}
-          Выбери группу!
-        {% else %}
-          Студент группы {{ current_user.group_number }}
-        {% endif %}
+        Сотрудник учебного отдела
       </p>
     </div>
   </div>
-
-{% if current_user.is_curator %}
   <form class="form-text" method="post" action="" enctype="multipart/form-data">
     {{ form.hidden_tag() }}
     <fieldset class="form-group">
@@ -52,33 +44,6 @@
       {{ form.submit(class="btn btn-outline-info")}}
     </div>
   </form>
-
-
-{% else %}
-<form class="form-text" method="post" action="" enctype="multipart/form-data">
-  {{ form2.hidden_tag() }}
-  <fieldset class="form-group">
-    <legend class="border-bottom mb-4">Сменить группу</legend>
-    <div class="form-group">
-      {{ form2.group_number.label(class="form-control-label") }}
-
-      {% if form2.group_number.errors %}
-        {{ form2.group_number(class="form-control form-control-lg is-invalid") }}
-        <div class="invalid-feedback">
-          {% for error in form2.group_number.errors %}
-            <span>{{ error }}</span>
-          {% endfor %}
-        </div>
-      {% else %}
-        {{ form2.group_number(class="form-control form-control-lg") }}
-      {% endif %}
-    </div>
-  </fieldset>
-  <div class="form-group">
-    {{ form2.submit(class="btn btn-outline-info")}}
-  </div>
-</form>
-{% endif %}
 </div>
 
 

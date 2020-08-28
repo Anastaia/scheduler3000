@@ -52,25 +52,22 @@
         </div>
         <div class="col-md-4 mt-4">
           <div class="content-section">
-            {% if current_user.is_authenticated %}
               <p class='text-muted'>Выбор группы:
                 <ul class="list-group">
-                  {% for g in group_list %}
+                  {% for k, v in group_list.items() %}
                     <li class="list-group-item list-group-item-light">
-                      <a href="{{ url_for('timetable_page', group=g) }}">
-                        {{ g }}
+                      <a href="{{ url_for('timetable_page', group=k, file=v) }}">
+                        {{ k }}
                       </a>
                     </li>
                   {% endfor %}
                 </ul>
               </p>
-            {% else %}
-            <p class='text-muted'>Войдите в систему, чтобы просматривать расписание</p>
-            {% endif %}
           </div>
         </div>
       </div>
     </main>
+
 
 
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>

@@ -3,6 +3,6 @@
 {% block content %}
 <h1>Расписание для группы  {{ group }}</h1>
 <div class="embed-responsive embed-responsive-16by9 mt-2">
-  <iframe class="embed-responsive-item" src="{{ url_for('static', filename='files/' + group + '.pdf') }}" allowfullscreen></iframe>
+  <iframe class="embed-responsive-item" src="{{ url_for('static', filename='files/' + file) }}" allowfullscreen></iframe>
 </div>
 {% endblock content %}
