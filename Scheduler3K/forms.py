@@ -17,7 +17,7 @@ class RegistrationForm(FlaskForm):
     password = PasswordField('Пароль', validators=[DataRequired()])
     confirm_password = PasswordField('Подтверждение пароля', validators=[
                                      DataRequired(), EqualTo('password')])
-    is_curator = BooleanField('Вы куратор?')
+    is_curator = BooleanField('Вы сотрудник учебного отдела?')
     submit = SubmitField('Регистрация')
 
     def validate_username(self, username):

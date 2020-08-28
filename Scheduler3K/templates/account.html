@@ -8,7 +8,7 @@
       <h2 class="account-heading">{{ current_user.username}}</h2>
       <p class="text-secondary">
         {% if current_user.is_curator is sameas true %}
-          Куратор
+          Сотрудник учебного отдела
         {% elif current_user.group_number == 'None' %}
           Выбери группу!
         {% else %}

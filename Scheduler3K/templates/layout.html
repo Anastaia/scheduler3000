@@ -52,17 +52,21 @@
         </div>
         <div class="col-md-4 mt-4">
           <div class="content-section">
-            <p class='text-muted'>Выбор группы:
-              <ul class="list-group">
-                {% for g in group_list %}
-                  <li class="list-group-item list-group-item-light">
-                    <a href="{{ url_for('timetable_page', group=g) }}">
-                      {{ g }}
-                    </a>
-                  </li>
-                {% endfor %}
-              </ul>
-            </p>
+            {% if current_user.is_authenticated %}
+              <p class='text-muted'>Выбор группы:
+                <ul class="list-group">
+                  {% for g in group_list %}
+                    <li class="list-group-item list-group-item-light">
+                      <a href="{{ url_for('timetable_page', group=g) }}">
+                        {{ g }}
+                      </a>
+                    </li>
+                  {% endfor %}
+                </ul>
+              </p>
+            {% else %}
+            <p class='text-muted'>Войдите в систему, чтобы просматривать расписание</p>
+            {% endif %}
           </div>
         </div>
       </div>
